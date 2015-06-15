@@ -11,7 +11,7 @@ var knownOpts = {
 
 var parsed = nopt(knownOpts, {}, process.argv, 2);
 
-var TasksBot = require('./');
+var TasksBot = require('../');
 
 var webhookServer = TasksBot.WebhookServer(
     parsed['port'] || process.env.PORT || 9090,
