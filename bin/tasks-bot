@@ -1,0 +1,26 @@
+#!/usr/bin/env node
+
+var nopt = require ('nopt');
+var knownOpts = {
+    'slack-key': [String],
+    'tasks-key': [String],
+    'webhook-url': [String],
+    'host': [String],
+    'port': [Number],
+};
+
+var parsed = nopt(knownOpts, {}, process.argv, 2);
+
+var TasksBot = require('./');
+
+var webhookServer = TasksBot.WebhookServer(
+    parsed['port'] || process.env.PORT || 9090,
+    parsed['host'] || process.env.HOST || '0.0.0.0'
+);
+
+var bot = TasksBot.Bot(
+    parsed['slack-key'] || process.env.SLACK_API_KEY,
+    parsed['tasks-key'] || process.env.TASKS_API_KEY,
+    parsed['webhook-url'] || process.env.WEBHOOK_URL,
+    webhookServer
+);
