@@ -8,5 +8,10 @@ Slack bot for 99designs Tasks
 ```
     mkdir tasks-bot && cd tasks-bot
     npm install git+ssh://git@github.com:99designs/tasks-slack-bot.git
-    node ./node_modules/.bin/tasks-bot --slack-key=xoxb-xxxx-xxxxxx --tasks-key=xxxxxxxxx --webhook-url=http://my-server.com:9090/ --host=0.0.0.0 --port=9090
+    node ./node_modules/.bin/tasks-bot \
+      --slack-key=xoxb-xxxx-xxxxxx \
+      --tasks-key=xxxxxxxxx \
+      --webhook-url=http://my-server.com:9090/ \
+      --host=0.0.0.0 \
+      --port=9090
 ```
