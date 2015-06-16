@@ -1,7 +1,7 @@
 Slack bot for 99designs Tasks
 ----
 
-1. Create a slack bot user: https://99designs.slack.com/services/new/bot
+1. Create a slack bot user: https://slack.com/services/new/bot
 2. Create a 99designs Tasks API key: https://99designs.com/tasks/apikeys
 3. Install and run the bot like this:
 
