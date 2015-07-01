@@ -1,6 +1,6 @@
 {
-  "name": "tasks-node-slack-bot",
-  "version": "0.0.0",
+  "name": "99designs-tasks-slack-bot",
+  "version": "0.0.1",
   "description": "A Slack bot for 99designs Tasks",
   "main": "index.js",
   "author": "Dennis hotson <dennis@99designs.com>",
