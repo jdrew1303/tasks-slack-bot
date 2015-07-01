@@ -17,7 +17,7 @@ https://youtu.be/URxdpAU2mqc
 
 ```
     mkdir tasks-bot && cd tasks-bot
-    npm install git@github.com:99designs/tasks-slack-bot.git
+    npm install git+https://git@github.com/99designs/tasks-slack-bot.git
     node ./node_modules/.bin/tasks-bot \
       --slack-key=xoxb-xxxx-xxxxxx \
       --tasks-key=xxxxxxxxx \
