@@ -28,6 +28,4 @@ https://youtu.be/URxdpAU2mqc
 
 ## Need help?
 
-Join us on our developer slack channel:
-
-[![](https://slackin-99designs-api.herokuapp.com/badge.svg)](https://slackin-99designs-api.herokuapp.com/)
+Join us on our developer slack channel: [![](https://slackin-99designs-api.herokuapp.com/badge.svg)](https://slackin-99designs-api.herokuapp.com/)
