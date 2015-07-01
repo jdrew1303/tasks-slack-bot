@@ -25,3 +25,9 @@ https://youtu.be/URxdpAU2mqc
       --host=0.0.0.0 \
       --port=9090
 ```
+
+## Need help?
+
+Join us on our developer slack channel:
+
+[![](https://slackin-99designs-api.herokuapp.com/badge.svg)](https://slackin-99designs-api.herokuapp.com/)
