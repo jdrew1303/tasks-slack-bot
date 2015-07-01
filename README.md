@@ -1,7 +1,7 @@
 Slack bot for 99designs Tasks
 ----
 
-Get small graphic design tasks completed by professional designers straight from Slack. Results are typically in under an hour.
+[99designs Tasks](https://99designs.com/tasks/) is for getting small graphic design tasks completed by professional designers straight from [Slack](https://slack.com/). Results are typically in under an hour.
 
 [Get in touch](mailto:dennis@99designs.com) and we'll give you some freebies to try it out. :-)
 
